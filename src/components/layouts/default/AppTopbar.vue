@@ -56,7 +56,8 @@ export default {
       this.$emit('topbar-menu-toggle', event)
     },
     topbarImage () {
-      return this.$appState.darkTheme ? '/images/logo-white.svg' : '/images/logo-dark.svg'
+     //TODO dark logo
+      return this.$appState.darkTheme ? '/images/logo.svg' : '/images/logo.svg'
     },
   }
 }

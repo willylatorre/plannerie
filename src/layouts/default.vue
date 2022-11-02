@@ -40,10 +40,10 @@ export default {
         {
           label: 'Home',
           items: [{
-            label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/'
+            label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/admin'
           },
           {
-            label: 'Calendar', icon: 'pi pi-fw pi-calendar', to: '/calendar'
+            label: 'Calendar', icon: 'pi pi-fw pi-calendar', to: '/admin/calendar'
           },
           {
             label: 'Payments', icon: 'pi pi-fw pi-dollar', to: '/payments'
