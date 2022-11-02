@@ -26,14 +26,10 @@ export default defineNuxtPlugin(({ vueApp: app }) => {
 
   const appState = createGlobalState(
     () => useLocalStorage<AppState>('app-state', {
-      theme: 'lara-light-indigo',
+      theme: 'saga-orange',
       darkTheme: false
     })
   )()
-
-  watch(() => appState.value.theme, (theme) => {
-    useAppTheme(theme)
-  }, { immediate: true })
 
   return {
     provide: {

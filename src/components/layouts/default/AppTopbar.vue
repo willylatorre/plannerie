@@ -2,9 +2,11 @@
   <div class="layout-topbar">
     <NuxtLink to="/" class="layout-topbar-logo">
       <img alt="Logo" :src="topbarImage()">
-      <span>SAKAI</span>
+      <span>Plannerie</span>
     </NuxtLink>
-    <button class="p-link layout-menu-button layout-topbar-button" @click="onMenuToggle">
+    <button 
+      class="p-link layout-menu-button layout-topbar-button hide-on-desktop" 
+      @click="onMenuToggle">
       <i class="pi pi-bars" />
     </button>
 
@@ -44,7 +46,7 @@ export default {
   computed: {
     darkTheme () {
       return this.$appState.darkTheme
-    }
+    },
   },
   methods: {
     onMenuToggle (event) {
@@ -55,7 +57,7 @@ export default {
     },
     topbarImage () {
       return this.$appState.darkTheme ? '/images/logo-white.svg' : '/images/logo-dark.svg'
-    }
+    },
   }
 }
 </script>

@@ -25,6 +25,7 @@ export default defineNuxtConfig({
 
   css: [
     'primevue/resources/primevue.css',
+    'primevue/resources/themes/saga-orange/theme.css',
     'primeflex/primeflex.css',
     'primeicons/primeicons.css',
     'prismjs/themes/prism-coy.css',
