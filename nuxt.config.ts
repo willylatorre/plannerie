@@ -25,7 +25,7 @@ export default defineNuxtConfig({
 
   css: [
     'primevue/resources/primevue.css',
-    'primevue/resources/themes/saga-orange/theme.css',
+    'primevue/resources/themes/lara-light-indigo/theme.css',
     'primeflex/primeflex.css',
     'primeicons/primeicons.css',
     'prismjs/themes/prism-coy.css',
@@ -55,7 +55,7 @@ export default defineNuxtConfig({
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
     ],
     link: [
-      { rel: 'icon', href: '/favicon.ico' }
+      { rel: 'icon', href: '/images/favicon.ico' }
     ]
   },
 
