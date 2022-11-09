@@ -1,10 +1,9 @@
 <template>
-  <NuxtLayout v-show="ready">
+  <NuxtLayout>
     <NuxtLoadingIndicator />
     <NuxtPage />
   </NuxtLayout>
 </template>
 
 <script lang="ts" setup>
-const ready = useTimeout(500)
 </script>

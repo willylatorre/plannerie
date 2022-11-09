@@ -265,10 +265,10 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-import ProductService from '~~/services/ProductService'
+<script  setup>
+// import ProductService from '~~/services/ProductService'
 
-const productService = new ProductService()
+// const productService = new ProductService()
 
 definePageMeta({
   middleware: 'auth'
@@ -310,9 +310,9 @@ function formatCurrency(value) {
   return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
 }
 
-onMounted(() => {
-  productService.getProductsSmall().then((data) => {
-    products.value = data
-  })
-})
+// onMounted(() => {
+//   productService.getProductsSmall().then((data) => {
+//     products.value = data
+//   })
+// })
 </script>

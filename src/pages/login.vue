@@ -55,7 +55,7 @@ const login = async () => {
 
 onMounted(() => {
   watchEffect(() => {
-    if (supaUser.value) {
+    if (supaUser?.value) {
       router.replace({ name: 'admin' })
     }
   });

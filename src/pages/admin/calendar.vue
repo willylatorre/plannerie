@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="calendar">
-            <vue-cal class="vuecal--rounded-theme vuecal--green-theme" />
+            <vue-cal />
         </div>
     </div>
 </template>
