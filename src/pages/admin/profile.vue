@@ -33,8 +33,7 @@ const router = useRouter();
 
 const logout = async () => {
     await client.auth.signOut()
-    console.log('signedOut')
-    router.push('/login')
+    router.push('/')
 }
 
 </script>
