@@ -38,8 +38,7 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    reactivityTransform: true,
-    viteNode: false
+    reactivityTransform: true
   },
 
   imports: {
@@ -62,7 +61,8 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    '~/modules/primevue'
+    '~/modules/primevue',
+    '@nuxtjs/supabase'
   ],
 
   nitro: {
