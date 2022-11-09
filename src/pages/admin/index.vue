@@ -9,7 +9,8 @@
               152
             </div>
           </div>
-          <div class="flex align-items-center justify-content-center bg-blue-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-blue-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-shopping-cart text-blue-500 text-xl" />
           </div>
         </div>
@@ -26,7 +27,8 @@
               $2.100
             </div>
           </div>
-          <div class="flex align-items-center justify-content-center bg-orange-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-orange-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-map-marker text-orange-500 text-xl" />
           </div>
         </div>
@@ -43,11 +45,12 @@
               28441
             </div>
           </div>
-          <div class="flex align-items-center justify-content-center bg-cyan-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-cyan-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-inbox text-cyan-500 text-xl" />
           </div>
         </div>
-        <span class="text-green-500 font-medium">520  </span>
+        <span class="text-green-500 font-medium">520 </span>
         <span class="text-500">newly registered</span>
       </div>
     </div>
@@ -60,7 +63,8 @@
               152 Unread
             </div>
           </div>
-          <div class="flex align-items-center justify-content-center bg-purple-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-purple-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-comment text-purple-500 text-xl" />
           </div>
         </div>
@@ -78,7 +82,8 @@
               Image
             </template>
             <template #body="slotProps">
-              <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.image" width="50" class="shadow-2">
+              <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.image" width="50"
+                class="shadow-2">
             </template>
           </Column>
           <Column field="name" header="Name" :sortable="true" style="width:35%" />
@@ -101,7 +106,8 @@
         <div class="flex justify-content-between align-items-center mb-5">
           <h5>Best Selling Products</h5>
           <div>
-            <Button icon="pi pi-ellipsis-v" class="p-button-text p-button-plain p-button-rounded" @click="$refs.menu2.toggle($event)" />
+            <Button icon="pi pi-ellipsis-v" class="p-button-text p-button-plain p-button-rounded"
+              @click="$refs.menu2.toggle($event)" />
             <ClientOnly>
               <Menu ref="menu2" :popup="true" :model="items" />
             </ClientOnly>
@@ -204,7 +210,8 @@
         <div class="flex align-items-center justify-content-between mb-4">
           <h5>Notifications</h5>
           <div>
-            <Button icon="pi pi-ellipsis-v" class="p-button-text p-button-plain p-button-rounded" @click="$refs.menu1.toggle($event)" />
+            <Button icon="pi pi-ellipsis-v" class="p-button-text p-button-plain p-button-rounded"
+              @click="$refs.menu1.toggle($event)" />
             <ClientOnly>
               <Menu ref="menu1" :popup="true" :model="items" />
             </ClientOnly>
@@ -214,7 +221,8 @@
         <span class="block text-600 font-medium mb-3">TODAY</span>
         <ul class="p-0 mx-0 mt-0 mb-4 list-none">
           <li class="flex align-items-center py-2 border-bottom-1 surface-border">
-            <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-blue-100 border-circle mr-3 flex-shrink-0">
+            <div
+              class="w-3rem h-3rem flex align-items-center justify-content-center bg-blue-100 border-circle mr-3 flex-shrink-0">
               <i class="pi pi-dollar text-xl text-blue-500" />
             </div>
             <span class="text-900 line-height-3">Richard Jones
@@ -222,17 +230,20 @@
             </span>
           </li>
           <li class="flex align-items-center py-2">
-            <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-orange-100 border-circle mr-3 flex-shrink-0">
+            <div
+              class="w-3rem h-3rem flex align-items-center justify-content-center bg-orange-100 border-circle mr-3 flex-shrink-0">
               <i class="pi pi-download text-xl text-orange-500" />
             </div>
-            <span class="text-700 line-height-3">Your request for withdrawal of <span class="text-blue-500 font-medium">2500$</span> has been initiated.</span>
+            <span class="text-700 line-height-3">Your request for withdrawal of <span
+                class="text-blue-500 font-medium">2500$</span> has been initiated.</span>
           </li>
         </ul>
 
         <span class="block text-600 font-medium mb-3">YESTERDAY</span>
         <ul class="p-0 m-0 list-none">
           <li class="flex align-items-center py-2 border-bottom-1 surface-border">
-            <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-blue-100 border-circle mr-3 flex-shrink-0">
+            <div
+              class="w-3rem h-3rem flex align-items-center justify-content-center bg-blue-100 border-circle mr-3 flex-shrink-0">
               <i class="pi pi-dollar text-xl text-blue-500" />
             </div>
             <span class="text-900 line-height-3">Keyser Wick
@@ -240,7 +251,8 @@
             </span>
           </li>
           <li class="flex align-items-center py-2 border-bottom-1 surface-border">
-            <div class="w-3rem h-3rem flex align-items-center justify-content-center bg-pink-100 border-circle mr-3 flex-shrink-0">
+            <div
+              class="w-3rem h-3rem flex align-items-center justify-content-center bg-pink-100 border-circle mr-3 flex-shrink-0">
               <i class="pi pi-question text-xl text-pink-500" />
             </div>
             <span class="text-900 line-height-3">Jane Davis
@@ -257,6 +269,10 @@
 import ProductService from '~~/services/ProductService'
 
 const productService = new ProductService()
+
+definePageMeta({
+  middleware: 'auth'
+})
 
 useHead({
   title: 'Dashboard'
@@ -289,7 +305,7 @@ const lineData = ref({
   ]
 })
 
-function formatCurrency (value) {
+function formatCurrency(value) {
   // @ts-ignore
   return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
 }
